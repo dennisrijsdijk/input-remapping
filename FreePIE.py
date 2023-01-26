@@ -133,4 +133,37 @@ if keyboard.getKeyDown(Key.Grave): # Choose a key that isn't used elsewhere like
 	mouse.deltaX = 0
 	mouse.deltaY = 0
 	keyboard.setKeyUp(Key.W) # Should add all possible keys here.
+	keyboard.setKeyUp(Key.S) # Ugly duplicated code, maybe loop through previously defined keys?
+	keyboard.setKeyUp(Key.A)
+	keyboard.setKeyUp(Key.D)
+	keyboard.setKeyUp(Key.R)
+	keyboard.setKeyUp(Key.LeftControl)
+	keyboard.setKeyUp(Key.D1)
+	keyboard.setKeyUp(Key.D2)
+	keyboard.setKeyUp(Key.D3)
+	keyboard.setKeyUp(Key.D4)
+	keyboard.setKeyUp(Key.D5)
+	keyboard.setKeyUp(Key.E)
+	keyboard.setKeyUp(Key.C)
+	keyboard.setKeyUp(Key.F)
+	keyboard.setKeyUp(Key.Tab)
+	keyboard.setKeyUp(Key.Space)
+	keyboard.setKeyUp(Key.Escape)
+	keyboard.setKeyUp(Key.Return)
+	keyboard.setKeyUp(Key.NumberPad1)
+	keyboard.setKeyUp(Key.NumberPad2)
+	keyboard.setKeyUp(Key.NumberPad3)
+	keyboard.setKeyUp(Key.NumberPad4)
+	keyboard.setKeyUp(Key.NumberPad5)
+	keyboard.setKeyUp(Key.NumberPad6)
+	keyboard.setKeyUp(Key.NumberPad7)
+	keyboard.setKeyUp(Key.NumberPad8)
+	keyboard.setKeyUp(Key.NumberPad9)
+	keyboard.setKeyUp(Key.NumberPad0)
+	keyboard.setKeyUp(Key.LeftShift)
+	keyboard.setKeyUp(Key.Q)
+	mouse.deltaX = 0
+	mouse.deltaY = 0
+	mouse.leftButton = False
+	mouse.rightButton = False
 	exit()	
